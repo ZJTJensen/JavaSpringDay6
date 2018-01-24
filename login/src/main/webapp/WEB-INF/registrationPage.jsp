@@ -13,28 +13,28 @@
     
     <p><form:errors path="user.*"/></p>
     
-    <form:form method="POST" action="/registration" modelAttribute="user">
-        <p>
-            <form:label path="firstName">First Name:</form:label>
-            <form:input path="firstName"/>
-        </p>
-        <p>
-            <form:label path="lastName">Last Name:</form:label>
-            <form:input path="lastName"/>
-        </p>
-        <p>
-            <form:label path="email">Email:</form:label>
-            <form:input path="email"/>
-        </p>
-        <p>
-            <form:label path="password">Password:</form:label>
-            <form:password path="password"/>
-        </p>
-        <p>
-            <form:label path="passwordConfirmation">Password Confirmation:</form:label>
-            <form:password path="passwordConfirmation"/>
-        </p>
-        <input type="submit" value="Register!"/>
-    </form:form>
+        <form:form method="POST" action="/registration" modelAttribute="user">
+            <p>
+                <form:label path="firstName">First Name:</form:label>
+                <form:input path="firstName"/>
+            </p>
+            <p>
+                <form:label path="lastName">Last Name:</form:label>
+                <form:input path="lastName"/>
+            </p>
+            <p>
+                <form:label path="email">Email:</form:label>
+                <form:input path="email"/>
+            </p>
+            <p>
+                <form:label path="password">Password:</form:label>
+                <form:password path="password"/>
+            </p>
+            <p>
+                <form:label path="passwordConfirmation">Password Confirmation:</form:label>
+                <form:password path="passwordConfirmation"/>
+            </p>
+            <input type="submit" value="Register!"/>
+        </form:form>
 </body>
 </html>
